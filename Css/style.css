@@ -1,0 +1,129 @@
+body {
+  background-color: rgb(255 251 234);
+}
+
+.w-30px {
+  width: 50px;
+}
+.bg-orange {
+  background-color: rgb(255 86 3);
+}
+.w-60 {
+  width: 60%;
+}
+.w-40 {
+  width: 40%;
+}
+.image{
+  object-fit: cover;
+}
+.bg-img {
+  background-image: url(../images/photo-1568901346375-23c9450c58cd.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.bg-img-2{
+  background-image: url(../images/photo-1546069901-ba9599a7e63c.jpg);
+}
+.h-100vh {
+  height: 100vh;
+}
+.corner-1 {
+  top: 20;
+  left: 20;
+}
+.corner-2 {
+  bottom: 20;
+  right: 20;
+  left: 20;
+}
+.text-orange {
+  color: rgb(255 105 0);
+}
+
+.bg-green {
+  background-color: rgb(219 252 231);
+}
+.bg-blue-light {
+  background-color: rgb(219 234 254);
+}
+.bg-nav {
+  background-color: rgb(255 251 234);
+}
+.bg-nav:hover {
+  background-color: rgb(254, 237, 162);
+}
+
+.p-corner {
+  padding: 21px 30px 21px 21px;
+}
+
+/* navs and tabs */
+
+
+.nav-tabs .nav-link {
+  color: rgb(73, 80, 87);
+  font-weight: 600;
+  border: none;
+  border-bottom: 3px solid transparent;
+  padding: 12px 20px;
+  transition: all 0.3s ease;
+}
+
+
+
+.nav-tabs .nav-link.active {
+  color: rgb(231, 111, 81) !important;
+  background-color: transparent !important;
+  border-bottom: 3px solid rgb(231, 111, 81) !important;
+}
+
+.nav-tabs .nav-link:hover {
+  color: rgb(231, 111, 81);
+  border-bottom: 3px solid rgb(244, 162, 97);
+}
+
+
+.bg-orange-light {
+  background-color: rgb(253, 246, 226);
+}
+
+
+.number {
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mb-18 {
+  margin-bottom: 18px;
+}
+
+
+.w-90 {
+  width: 90%;
+}
+.w-800 {
+  width: 800px;
+}
+.bg-light-2{
+    background-color: rgba(228, 229, 230, 0.438);
+}
+.bg-bink{
+    background-color: rgb(252 231 243);
+}
+.text-bink{
+    color: rgb(230 0 118) ;
+}
+.bg-orange-2{
+    background-color: rgb(225 113 0);
+}
+.bg-button{
+    background: linear-gradient(135deg, #e46d48 0%, #d23e18 100%) !important;
+    transition: all 0.5s;
+}
+.bg-button:hover{
+    transform: scale(1.1);
+}
